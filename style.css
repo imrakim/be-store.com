@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -8,9 +9,7 @@
     background-color: #fbb304;
     padding: 10px;
     text-align: center;
-}
-/* notification highlight close */
-
+}                       /* notification highlight close */
 /* navbar start  */
 .navbar{
     padding: 20px;
@@ -31,7 +30,9 @@ list-style: none;
 }
 .navbar_paragraph{
     padding-left: 5%;
-}
+}                       /* navbar close */
+
+    /* logo and serach bar started */
 .logo{
     font-size: 40px;
     color:blue;
@@ -53,6 +54,9 @@ list-style: none;
 }
 .main_header_section ul{
 display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 12%;
 }
 .main_header_section ul li{
 list-style: none;
@@ -64,6 +68,7 @@ list-style: none;
 }
 .main_header_section ul li a i{
    font-size: 20px;
+  justify-content: center;
 }
 .search_box{
    background: transparent;
@@ -82,23 +87,25 @@ list-style: none;
 input{
     border: 0;
     line-height: 2em;
-}
+}    /* logo and serach bar closeing */
+
+/* product menu started */
 .product_menu ul{
     display: flex;
-    padding-top: 20px;
-    padding-left: 5px;
+    padding: 10px;
+    padding-left: 10px;
 }
 .product_menu ul li{
     list-style: none;
+
 }
 .product_menu ul li a{
     text-decoration: none;
     padding-left: 10vh;
     font-weight: 500;
 }
-.product_menu ul li a:hover{
-    border-bottom: 5px solid blue;
-}
+
+/* product menu closeing */
 
 
 
